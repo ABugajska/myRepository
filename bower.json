@@ -1,0 +1,21 @@
+{
+  "name": "cookbook",
+  "version": "0.0.0",
+  "authors": [
+    "Aga <agnieszka.bugajska@naturaily.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "semantic": "~0.19.3",
+    "emblem": "~0.3.18"
+  }
+}
