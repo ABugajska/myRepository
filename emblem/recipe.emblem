@@ -1,1 +1,10 @@
-p This is #{name}!
+div.ui.grid
+  div.wide.two.column
+    h3 List
+    ul
+      li 1
+      li 2
+      li 3
+
+  div.wide.two.column
+    p world

@@ -4,6 +4,7 @@ define([
 ], function(Backbone, Recipe) {
     var CookBook = Backbone.Collection.extend({
         model: Recipe
+
     });
 
     return CookBook;

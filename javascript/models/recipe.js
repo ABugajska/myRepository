@@ -1,5 +1,5 @@
 define([
-    'backbone'
+    'backbone',
 ], function(Backbone) {
     var SingleRecipe = Backbone.Model.extend();
 

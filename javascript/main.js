@@ -22,7 +22,7 @@ require([
     'mocks/recipe_list',
     'collections/recipes',
     'views/recipe'
-], function(App, MyRecipes, Recipes, RecipeView){
+], function(Semantic, App, MyRecipes, Recipes, RecipeView){
     // The "app" dependency is passed in as "App"
     var cookbook = new Recipes(MyRecipes);
     var view = new RecipeView;

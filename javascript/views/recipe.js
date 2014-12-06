@@ -1,12 +1,13 @@
 define([
     'backbone',
+    'semantic',
     'models/recipe',
     'templates/recipe'
-], function (Backbone, RecipeModel, RecipeTemplate) {
+], function (Backbone,Semantic, RecipeModel, RecipeTemplate) {
 
 
     var recipeView = Backbone.View.extend({
-        el: 'body',
+        el: '.recipe-list',
         template: RecipeTemplate,
         initialize: function () {
             this.model = new RecipeModel({
